@@ -6,4 +6,4 @@
 
 [MEMORY GAME](https://vineetttt.github.io/HTML_CSS_JS/MemoryGame/index.html) :- A retro grid based memory game made using Vanilla JavaScript where you need to match pairs by turn over 2 cards at a time.
 
-[SUNNY-SIDE LANDING PAGE](https://vineetttt.github.io/HTML_CSS_JS/SunnySide%20Landing%20Page/) :- Solution to the [SunnySide Agency Landing Page Callenge](https://www.frontendmentor.io/challenges/sunnyside-agency-landing-page-7yVs3B6ef) on Frontend Master.
+[SUNNY-SIDE LANDING PAGE](https://vineetttt.github.io/HTML_CSS_JS/SunnySide%20Landing%20Page/) :- Solution to the [SunnySide Agency Landing Page Callenge](https://www.frontendmentor.io/challenges/sunnyside-agency-landing-page-7yVs3B6ef) on Frontend Mentor.
