@@ -1,4 +1,4 @@
-                                                            HTML CSS JS implementation 
+                                                HTML CSS JS implementation 
 
 [CONTACT FORM](https://vineetttt.github.io/HTML_CSS_JS/ContactForm/) :- A basic contact form created using the HTML 'form' elements and basic CSS 
 
