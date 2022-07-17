@@ -1,0 +1,345 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    /* vh is vertical-height */
+    /*sets the minimum height of the element*/
+    background-image: url(https://i.ibb.co/HNvHSyV/image-header.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.header {
+    height: 60px;
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    margin-top: 1%;
+}
+
+.nav-links li {
+    list-style: none;
+    margin-right: 30px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.contact {
+    background-color: aliceblue;
+    color: black;
+    padding: 8px 20px;
+    border-radius: 15px;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.2s all ease-in-out;
+    /* Ease in, ease out is the technique of giving an object more frames at both the beginning and end of a motion.  */
+}
+
+.contact:hover {
+    background-color: #FFD700;
+}
+
+.main {
+    font-size: 6.5vw;
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 15%;
+    left: 20%;
+    font-family: "Fraunces", serif;
+    text-transform: uppercase;
+}
+
+.arrow {
+    margin-top: 150px;
+    left: 48%;
+    position: absolute;
+    animation: jump-down 1.5s ease infinite;
+}
+
+/* arrow jumping animation  */
+@keyframes jump-down {
+
+    0%,
+    50%,
+    100% {
+        transform: translateY(0);
+    }
+
+    12.5%,
+    37.5% {
+        transform: translateY(20px);
+    }
+
+    25% {
+        transform: translateY(10px);
+    }
+}
+
+/***************************************** About Section Starts ****************************************************/
+.about-flex {
+    display: flex;
+}
+
+.about-content {
+    padding: 0 10vw;
+    align-self: center;
+    flex: 0 0 50%;
+    /*This is the shorthand for flex-grow, flex-shrink and flex-basis */
+}
+
+.about-content-text {
+    margin: 2rem 0 2rem 0;
+}
+
+.about-img {
+    flex: 0 0 50%;
+}
+
+.about-img-photo {
+    flex: 0 0 50%;
+    width: 100%;
+    display: block;
+}
+
+.secondary-heading {
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.5;
+    color: #23303e;
+}
+
+.paragraph {
+    font-size: 1.5rem;
+}
+
+.button-black {
+    text-transform: uppercase;
+    padding: 0;
+    font-size: 1.4rem;
+    font-weight: 900;
+    border: 0px;
+}
+
+.button-black-1 {
+    border-bottom: 3px solid #fad400;
+}
+
+.button-black-2 {
+    border-bottom: 3px solid #fe7867;
+    align-self: flex-start;
+}
+
+/*************************************** About Section Ends ********************************************************/
+/*************************************** Services Section Starts **************************************************/
+.services-flex {
+    display: flex;
+}
+
+.services-img {
+    flex: 0 0 50%;
+}
+
+.services-img-photo {
+    flex: 0 0 50%;
+    width: 100%;
+    display: block;
+}
+
+.services-content {
+    flex: 0 0 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 10vw;
+}
+
+.services-content-text {
+    margin: 2rem 0;
+
+}
+
+/********************************************* Services Section Ends ***********************************************/
+/********************************************* Project Section Starts **********************************************/
+.projects-flex {
+    display: flex;
+}
+
+.projects-img {
+    flex: 0 0 50%;
+}
+
+.projects-img-photo {
+    width: 100%;
+    display: block;
+}
+
+.teritary-heading {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.graphicText {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #19536b;
+    padding: 0 10vw;
+}
+
+.photographyText {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #25564b;
+    padding: 0 12vw;
+}
+
+.graphic-textbox,
+.photography-textbox {
+    margin-top: -200px;
+}
+
+/********************************************** Project Section Ends *************************************************/
+/********************************************** Testimonials Section Starts *******************************************/
+.testimonial {
+    height: 60vh;
+    margin: 10rem 0;
+}
+
+.testimonial_grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    grid-gap: .1rem;
+}
+
+.testimonial-client-1,
+.testimonial-client-2,
+.testimonial-client-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.testimonial-client-photo-1,
+.testimonial-client-photo-2,
+.testimonial-client-photo-3 {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    margin-bottom: 3rem;
+}
+
+.testimonial-client-text-1,
+.testimonial-client-text-2,
+.testimonial-client-text-3 {
+    font-size: 1.3rem;
+    color: #5a636c;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.fourth-heading {
+    font-size: 1.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.25rem;
+    font-weight: 700;
+    margin-bottom: 8rem;
+    color: #a7abae;
+}
+
+.client {
+    font-size: 1.5rem;
+    font-weight: bold;
+    columns: #23303e;
+    margin-bottom: 0.2rem;
+}
+
+.designation {
+    font-size: 1.1rem;
+    color: #a7abae;
+}
+
+/***************************************** Testimonials Section Ends **********************************************/
+/***************************************** Our Work Section Starts *************************************************/
+
+.gallery-images {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+}
+
+.gallery-img-1,
+.gallery-img-2,
+.gallery-img-3 {
+    width: 100%;
+    display: flex;
+}
+
+/****************************************** Our Work Section Ends **************************************************/
+/****************************************** Footer Section Starts **************************************************/
+.footer {
+    background-color: #458c7e;
+    height: 50vh;
+}
+
+.footer-flex {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer-list {
+    list-style: none;
+    display: flex;
+}
+
+.footer-item {
+    margin-bottom: 5rem;
+}
+
+.footer-link {
+    color: #19536b;
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin-right: 2rem;
+}
+
+.footer-social {
+    display: flex;
+}
+
+.footer-social img {
+    margin-right: 2rem;
+}
+
+.fifth-heading {
+    font-size: 3rem;
+    color: #19536b;
+    text-align: center;
+    margin: 4rem 0;
+    font-weight: 900;
+}
+
+/********************************************** Footer Section Ends *************************************************/
