@@ -1,4 +1,4 @@
-/*fetching advice from the API provided*/
+/*fetching advice ID and Content from the API and displaying it using DOM*/
 const adviceFetch = async () => {
     const temp = await fetch("https://api.adviceslip.com/advice")
     const dataFetched = await temp.json()
