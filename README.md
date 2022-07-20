@@ -8,4 +8,4 @@
 
 [SUNNY-SIDE LANDING PAGE](https://vineetttt.github.io/HTML_CSS_JS/SunnySide%20Landing%20Page/) :- Solution to the [SunnySide Agency Landing Page Callenge](https://www.frontendmentor.io/challenges/sunnyside-agency-landing-page-7yVs3B6ef) on Frontend Mentor.
 
-[ADVICE GENERATOR APP](https://vineetttt.github.io/HTML_CSS_JS/AdviceGeneratorApp/) :- Solution to the [Advice generator app](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db) on Frontend Mentor. The Challenge consists of building the app by fetching the data from the [Advice Slip API](https://api.adviceslip.com/) to generate random quotes of advice.
+[ADVICE GENERATOR APP](https://vineetttt.github.io/HTML_CSS_JS/AdviceGeneratorApp/) :- Solution to the [Advice generator app](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db) challenge on Frontend Mentor. The Challenge consists of building the app by fetching the data from the [Advice Slip API](https://api.adviceslip.com/) to generate random quotes of advice.
